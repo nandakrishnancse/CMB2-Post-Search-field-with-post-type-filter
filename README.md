@@ -35,7 +35,7 @@ $cmb->add_field( array(
 	'type'        => 'post_search_text', // This field type
 	// post type should be an array
 	'post_type'   => [ 'post', 'page' ],
-	//filter shown only if post type if an array of size greater than or equal to two
+	//filter shown only if post type is an array and its size greater than or equal to two
 	'post_type_filter' => true,
 	// Default is 'checkbox', used in the modal view to select the post type
 	'select_type' => 'radio',
@@ -51,11 +51,12 @@ $cmb->add_field( array(
 ![Field display](https://raw.githubusercontent.com/nandakrishnancse/CMB2-Post-Search-field-with-post-type-filter/master/post-search-field.png)
 
 2. Search Modal  
-![Search Modal](https://raw.githubusercontent.com/nandakrishnancse/CMB2-Post-Search-field-with-post-type-filter/post-search-dialog.png)
+![Search Modal](https://raw.githubusercontent.com/nandakrishnancse/CMB2-Post-Search-field-with-post-type-filter/master/post-search-dialog.png)
 
 3. Search Modal with post type filter  
 ![Search Modal](https://raw.githubusercontent.com/nandakrishnancse/CMB2-Post-Search-field-with-post-type-filter/master/post-search-filter-dialog.png)
 
 ----
-
+```
 Courtacy repository : https://github.com/CMB2/CMB2-Post-Search-field
+```
